@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<path d="M66 40A24 24 0 1 1 104 64" fill="none" stroke="#2f3a2c" stroke-width="20" stroke-linecap="round"/>
+<path d="M66 40A24 24 0 1 1 104 64" fill="none" stroke="#e58a52" stroke-width="11.5" stroke-linecap="round"/>
+<path d="M80 24l4 9M94 22l-2 10M106 32l-9 5" fill="none" stroke="#2f3a2c" stroke-width="3.47" stroke-linecap="round" opacity=".55"/>
+<path d="M66 40L54 34L58 46Z" fill="#e58a52" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="103" cy="58" r="2.6" fill="#2f3a2c"/>
+<path d="M108 56Q118 46 120 34M108 60Q120 56 124 46" fill="none" stroke="#2f3a2c" stroke-width="2.6" stroke-linecap="round"/>
+<g transform="translate(-4 34) scale(.78)"><g>
+  <g transform="translate(2.93 3.47)" opacity=".78"><path d="M44.69 36.36 c26.14 -1.71 45.47 9.95 55.13 31.83 -10.8 20.75 -30.41 30.98 -56.27 29.27 -18.19 -1.14 -30.41 -11.37 -30.98 -29.84 -0.57 -18.19 11.37 -29.84 32.11 -31.26 Z" fill="#6b9fbe"/></g>
+  <path d="M42.41 34.08 c26.14 -1.71 45.47 9.95 55.13 31.83 -10.8 20.75 -30.41 30.98 -56.27 29.27 -18.19 -1.14 -30.41 -11.37 -30.98 -29.84 -0.57 -18.19 11.37 -29.84 32.11 -31.26 Z" fill="#6b9fbe" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M96.98 65.34 c7.96 -8.53 14.78 -12.22 20.75 -10.8 -1.99 7.39 -1.99 14.78 0 21.88 -6.82 1.42 -13.64 -2.27 -20.75 -11.08 Z" fill="#4f809f" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M53.21 34.65 c5.68 -7.39 12.22 -9.66 19.61 -6.82 -2.56 7.1 -7.1 11.94 -13.92 14.49 Z" fill="#4f809f" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M29.34 56.82 c4.83 -0.57 7.39 1.71 7.39 5.97 0 4.55 -2.56 6.82 -6.82 6.54 -4.26 -0.28 -6.25 -2.84 -5.97 -6.82 0.28 -3.41 1.99 -5.12 5.4 -5.68 Z" fill="#fdf6e8" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M56.06 44.88 c7.39 13.36 7.96 26.71 1.71 40.07" fill="none" stroke="#2f3a2c" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M76.52 59.09 c5.12 1.71 7.96 4.55 8.53 8.53" fill="none" stroke="#2f3a2c" stroke-width="3.47" stroke-linecap="round" opacity=".42"/>
+  </g></g>
+</svg>

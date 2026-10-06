@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<g transform="translate(3 13) scale(.57)"><g>
+  <g transform="translate(2.93 3.47)" opacity=".78"><path d="M67.55 33.91 c21.29 -6.79 37.95 5.86 39.19 29.93 1.23 25.92 -14.5 49.68 -31.78 49.68 -4.63 0 -7.41 -1.85 -11.42 -1.85 -4.01 0 -6.79 1.85 -11.42 1.85 -17.28 0 -33.01 -23.76 -31.78 -49.68 1.23 -24.07 17.9 -36.72 39.19 -29.93 2.78 0.93 5.55 0.93 8.02 0 Z" fill="#d4564a"/></g>
+  <path d="M65.08 31.45 c21.29 -6.79 37.95 5.86 39.19 29.93 1.23 25.92 -14.5 49.68 -31.78 49.68 -4.63 0 -7.41 -1.85 -11.42 -1.85 -4.01 0 -6.79 1.85 -11.42 1.85 -17.28 0 -33.01 -23.76 -31.78 -49.68 1.23 -24.07 17.9 -36.72 39.19 -29.93 2.78 0.93 5.55 0.93 8.02 0 Z" fill="#d4564a" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M62.62 30.83 c-1.54 -10.8 1.23 -17.59 8.02 -20.36" fill="none" stroke="#2f3a2c" stroke-width="5.6" stroke-linecap="round"/>
+  <path d="M68.17 20.96 c9.87 -8.02 19.44 -8.02 28.08 0 -8.64 9.26 -18.2 9.26 -28.08 0 Z" fill="#7cbb6c" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M39.78 53.04 c-5.25 7.41 -6.79 15.43 -4.01 24.07" fill="none" stroke="#2f3a2c" stroke-width="3.47" stroke-linecap="round" opacity=".42"/>
+  </g>
+
+</g>
+<path d="M81 22C67 21 77 40 65 48C51 63 59 77 80 76C102 78 112 64 99 50C86 38 96 24 81 22Z" fill="#d3b855" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round"/>
+<path d="M81 21Q77 12 87 8" fill="none" stroke="#2f3a2c" stroke-width="4.27" stroke-linecap="round"/>
+<path d="M88 18Q101 7 111 15Q102 26 88 18Z" fill="#7cbb6c" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round"/>
+<path d="M19 70Q64 78 113 70L104 94Q94 115 65 116Q35 117 26 96Z" fill="#cfa063" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round"/>
+<path d="M17 69Q63 76 113 68L112 78Q65 86 19 79Z" fill="#e8b551" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round"/>
+<path d="M39 89L44 104M63 91V108M88 88L83 104" fill="none" stroke="#2f3a2c" stroke-width="3.47" stroke-linecap="round" opacity=".55"/>
+</svg>

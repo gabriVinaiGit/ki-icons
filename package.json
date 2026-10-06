@@ -1,0 +1,33 @@
+{
+  "name": "ki-icons",
+  "version": "0.1.0",
+  "description": "Hand-drawn, full-colour food, category and trophy illustrations as an Iconify icon set (prefix `ki`).",
+  "keywords": [
+    "icons",
+    "iconify",
+    "food",
+    "illustrations",
+    "vuetify",
+    "nuxt-icon"
+  ],
+  "license": "MIT",
+  "author": "Gabriele Vinai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriVinaiGit/ki-icons.git"
+  },
+  "type": "module",
+  "exports": {
+    "./icons.json": "./icons.json",
+    "./names.json": "./names.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "icons.json",
+    "names.json",
+    "svg"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/catalog.mjs"
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+<g transform="translate(-14 4) scale(.86)"><g>
+  <path d="M53.91 14.05 h18.91 c2.3 0 4.09 1.79 4.09 4.09 v9.71 h-27.08 V18.14 c0 -2.3 1.79 -4.09 4.09 -4.09 Z" fill="#2f7f9e" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+  <g transform="translate(2.93 3.47)" opacity=".78"><path d="M51.87 29.89 h23.51 v12.77 c0 3.83 1.28 6.64 4.34 9.96 4.6 4.85 6.64 9.45 6.64 15.59 v32.45 c0 5.62 -4.6 9.96 -9.96 9.96 H50.85 c-5.62 0 -9.96 -4.6 -9.96 -9.96 V68.21 c0 -6.13 2.3 -10.73 6.64 -15.59 3.07 -3.32 4.34 -6.13 4.34 -9.96 Z" fill="#55aecd"/></g>
+  <path d="M49.82 27.84 h23.51 v12.77 c0 3.83 1.28 6.64 4.34 9.96 4.6 4.85 6.64 9.45 6.64 15.59 v32.45 c0 5.62 -4.6 9.96 -9.96 9.96 H48.8 c-5.62 0 -9.96 -4.6 -9.96 -9.96 V66.17 c0 -6.13 2.3 -10.73 6.64 -15.59 3.07 -3.32 4.34 -6.13 4.34 -9.96 Z" fill="#55aecd" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M39.09 75.88 c15.33 -2.81 30.4 -2.81 45.22 0" fill="none" stroke="#2f3a2c" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M48.29 55.95 c-2.81 4.6 -4.09 8.94 -3.58 13.29" fill="none" stroke="#2f3a2c" stroke-width="3.47" stroke-linecap="round" opacity=".42"/>
+  </g></g>
+<path d="M96 30L88 64" fill="none" stroke="#2f3a2c" stroke-width="10" stroke-linecap="round"/>
+<path d="M96 30L88 64" fill="none" stroke="#d4564a" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M68 58H112L106 112H74Z" fill="#fdf6e8" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M70.5 74H109.5L106 112H74Z" fill="#e8a03a" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="110" cy="58" r="10" fill="#f2c94c" stroke="#2f3a2c" stroke-width="4.27" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M110 52V64M104 58H116" fill="none" stroke="#2f3a2c" stroke-width="2.4" stroke-linecap="round" opacity=".55"/>
+<path d="M80 82Q79 92 81 102" fill="none" stroke="#2f3a2c" stroke-width="3.47" stroke-linecap="round" opacity=".42"/>
+</svg>
