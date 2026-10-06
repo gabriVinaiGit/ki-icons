@@ -18,7 +18,8 @@ The full list, grouped by family, is in `names.json`.
 ## Install
 
 ```sh
-pnpm add github:gabriVinaiGit/ki-icons
+pnpm add ki-icons
+# or: npm install ki-icons
 ```
 
 ## Use with Nuxt
