@@ -1,14 +1,16 @@
 {
   "name": "ki-icons",
   "version": "0.1.0",
-  "description": "Hand-drawn, full-colour food, category and trophy illustrations as an Iconify icon set (prefix `ki`).",
+  "description": "Hand-drawn, full-colour food, category and trophy illustrations: a Nuxt module and an Iconify icon set (prefix `ki`).",
   "keywords": [
     "icons",
     "iconify",
     "food",
     "illustrations",
-    "vuetify",
-    "nuxt-icon"
+    "nuxt",
+    "nuxt-module",
+    "nuxt-icon",
+    "vuetify"
   ],
   "license": "MIT",
   "author": "Gabriele Vinai",
@@ -18,15 +20,29 @@
   },
   "type": "module",
   "exports": {
+    ".": {
+      "types": "./nuxt.d.mts",
+      "default": "./nuxt.mjs"
+    },
     "./icons.json": "./icons.json",
     "./names.json": "./names.json",
     "./package.json": "./package.json"
   },
   "files": [
+    "nuxt.mjs",
+    "nuxt.d.mts",
     "icons.json",
     "names.json",
     "svg"
   ],
+  "peerDependencies": {
+    "@nuxt/icon": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@nuxt/icon": {
+      "optional": true
+    }
+  },
   "scripts": {
     "build": "node scripts/build.mjs && node scripts/catalog.mjs"
   }

@@ -2,7 +2,7 @@
 
 Hand-drawn, full-colour illustrations — food, food categories and trophies —
 packaged as an [Iconify](https://iconify.design) icon set with the prefix `ki`.
-It works like `@iconify-json/mdi`: install it, register it once, and write
+It works like `@iconify-json/mdi`: install it, add it to your Nuxt modules, and write
 `ki:banana` wherever you would write `mdi:home`.
 
 Open [`catalog.html`](./catalog.html) in a browser to browse every icon.
@@ -21,26 +21,31 @@ The full list, grouped by family, is in `names.json`.
 pnpm add github:gabriVinaiGit/ki-icons
 ```
 
-## Use with Nuxt (`@nuxt/icon`)
+## Use with Nuxt
+
+It is a Nuxt module (Nuxt ≥ 4.1). One line:
 
 ```ts
 // nuxt.config.ts
-import kiIcons from 'ki-icons/icons.json'
-
 export default defineNuxtConfig({
-  modules: ['@nuxt/icon'],
-  icon: {
-    customCollections: [kiIcons],
-  },
+  modules: ['ki-icons'],
 })
 ```
+
+The module hands the collection to [`@nuxt/icon`](https://github.com/nuxt/icon)
+— installing it too if the app does not list it — and ships the whole set in
+the client bundle, so icons chosen at runtime (from data) work without a
+server, in static and mobile builds as well. Your own `icon` config still
+wins over these defaults; your other custom collections are kept.
 
 ```vue
 <Icon name="ki:banana" size="48" />
 ```
 
-With Vuetify, route `v-icon` through `<Icon>` (an icon set whose component
-renders `h(Icon, { name: 'ki:' + icon })`) and the usual sizes apply unchanged:
+With Vuetify, if `v-icon` renders through `<Icon>` (as it does for `mdi:`
+icons in a Nuxt + `@nuxt/icon` setup), `ki:` icons follow the same rules —
+`size="x-small"` … `"x-large"` and numbers give exactly the sizes an mdi icon
+gets:
 
 ```vue
 <v-icon icon="ki:banana" size="small" />
