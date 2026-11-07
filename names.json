@@ -127,5 +127,50 @@
     "trophy-receipt",
     "trophy-sprout",
     "trophy-tree"
+  ],
+  "currency": [
+    "currency-barn",
+    "currency-basket",
+    "currency-handful",
+    "currency-packet",
+    "currency-sack",
+    "currency-seed"
+  ],
+  "world": [
+    "world-city",
+    "world-farm",
+    "world-garden",
+    "world-lake",
+    "world-market",
+    "world-orchard",
+    "world-planet",
+    "world-vegetable",
+    "world-woods"
+  ],
+  "deco": [
+    "deco-beehive",
+    "deco-bench",
+    "deco-birdhouse",
+    "deco-compost",
+    "deco-drip-irrigation",
+    "deco-fence",
+    "deco-flowerbed",
+    "deco-fountain",
+    "deco-golden-statue",
+    "deco-herb-pot",
+    "deco-insect-hotel",
+    "deco-path",
+    "deco-rain-barrel",
+    "deco-raised-bed",
+    "deco-scarecrow",
+    "deco-seed-tray",
+    "deco-solar-lamp",
+    "deco-tomato-stake",
+    "deco-wheelbarrow"
+  ],
+  "tree": [
+    "tree-birch",
+    "tree-oak",
+    "tree-pine"
   ]
 }

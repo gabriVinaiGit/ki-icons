@@ -1,6 +1,7 @@
 # ki-icons
 
-Hand-drawn, full-colour illustrations — food, food categories and trophies —
+Hand-drawn, full-colour illustrations — food, food categories, trophies, currency
+and the worlds with what goes in them —
 packaged as an [Iconify](https://iconify.design) icon set with the prefix `ki`.
 It works like `@iconify-json/mdi`: install it, add it to your Nuxt modules, and write
 `ki:banana` wherever you would write `mdi:home`.
@@ -12,6 +13,10 @@ Open [`catalog.html`](./catalog.html) in a browser to browse every icon.
 | food     | the food itself, in English                    | `ki:banana`          |
 | category | `category-` + the category                     | `ki:category-fruit`  |
 | trophy   | `trophy-` + the trophy                         | `ki:trophy-sprout`   |
+| currency | `currency-` + the seed, or what holds them      | `ki:currency-seed`   |
+| world    | `world-` + the place, standing on its island    | `ki:world-garden`    |
+| deco     | `deco-` + the object, standing on its base      | `ki:deco-bench`      |
+| tree     | `tree-` + the species, standing on its base     | `ki:tree-oak`        |
 
 The full list, grouped by family, is in `names.json`.
 

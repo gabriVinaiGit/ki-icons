@@ -2,7 +2,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises'
 
 // svg/<family>/<name>.svg → icon "<name>" for food, "<family>-<name>" otherwise,
 // so `ki:banana`, `ki:category-fruit` and `ki:trophy-sprout` never collide.
-const FAMILIES = ['food', 'category', 'trophy']
+const FAMILIES = ['food', 'category', 'trophy', 'currency', 'world', 'deco', 'tree']
 const DEFAULT_SIZE = 24
 
 // Markup that would let an icon do more than draw itself.
