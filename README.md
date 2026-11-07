@@ -84,6 +84,16 @@ the only thing the surrounding text controls.
 4. Commit the SVG together with the regenerated files: they are what
    installs read, with no build step on the consumer's side.
 
+`npm test` runs the same checks without writing anything, and fails if
+`icons.json` or `names.json` is out of step with `svg/` or the version. It runs
+on every push (GitHub Actions) and before every `npm publish`.
+
+## Versions
+
+From 1.0 an icon's name is a promise: apps store names like `ki:deco-bench` in
+their data. A new icon is a minor version; a redrawn one a patch; renaming or
+removing one is a major version.
+
 ## License
 
 MIT © Gabriele Vinai

@@ -1,5 +1,10 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 
+// `node scripts/build.mjs --check` (npm test): the same checks, and that
+// icons.json and names.json are what the drawings and this version make —
+// written by nobody, so a stale set is never published.
+const check = process.argv.includes('--check')
+
 // svg/<family>/<name>.svg → icon "<name>" for food, "<family>-<name>" otherwise,
 // so `ki:banana`, `ki:category-fruit` and `ki:trophy-sprout` never collide.
 const FAMILIES = ['food', 'category', 'trophy', 'currency', 'world', 'deco', 'tree']
@@ -67,6 +72,20 @@ const iconSet = {
   icons,
 }
 
-await writeFile(new URL('icons.json', root), `${JSON.stringify(iconSet)}\n`)
-await writeFile(new URL('names.json', root), `${JSON.stringify(names, null, 2)}\n`)
+const outputs = {
+  'icons.json': `${JSON.stringify(iconSet)}\n`,
+  'names.json': `${JSON.stringify(names, null, 2)}\n`,
+}
+if (check) {
+  const stale = []
+  for (const [file, content] of Object.entries(outputs)) {
+    if ((await readFile(new URL(file, root), 'utf8')) !== content) { stale.push(file) }
+  }
+  if (stale.length) {
+    console.error(`${stale.join(' and ')} out of date with svg/ or package.json: run npm run build`)
+    process.exit(1)
+  }
+} else {
+  for (const [file, content] of Object.entries(outputs)) { await writeFile(new URL(file, root), content) }
+}
 console.info(`icons.json: ${iconSet.info.total} icons (${FAMILIES.map(f => `${names[f].length} ${f}`).join(', ')})`)

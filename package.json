@@ -1,6 +1,6 @@
 {
   "name": "ki-icons",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Hand-drawn, full-colour food, category, trophy, currency, world, decoration and tree illustrations: a Nuxt module and an Iconify icon set (prefix `ki`).",
   "keywords": [
     "icons",
@@ -19,6 +19,7 @@
     "url": "git+https://github.com/gabriVinaiGit/ki-icons.git"
   },
   "type": "module",
+  "types": "./nuxt.d.mts",
   "exports": {
     ".": {
       "types": "./nuxt.d.mts",
@@ -44,6 +45,8 @@
     }
   },
   "scripts": {
-    "build": "node scripts/build.mjs && node scripts/catalog.mjs"
+    "build": "node scripts/build.mjs && node scripts/catalog.mjs",
+    "test": "node scripts/build.mjs --check",
+    "prepublishOnly": "npm test"
   }
 }
