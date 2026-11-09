@@ -1,10 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 32 32" width="48" height="48">
-  <path d="M13.8 37.8v-1.8h20.4v1.8Z" fill="#7a5230" fill-rule="evenodd" stroke="#2f3a2c" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
-  <g transform="translate(1.1 1.3)" opacity=".85"><path d="M15.6 36c-.6-9.2 3-15.8 8.4-15.8s9 6.6 8.4 15.8Z" fill="#e2a64b"/></g><path d="M15.6 36c-.6-9.2 3-15.8 8.4-15.8s9 6.6 8.4 15.8Z" fill="#e2a64b" fill-rule="evenodd" stroke="#2f3a2c" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
-  <path d="M16.4 31.6h15.2M17.4 27.4h13.2M19.6 23.6h8.8" fill="none" stroke="#2f3a2c" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/>
-  <path d="M22.2 36c0-1.4.8-2.2 1.8-2.2s1.8.8 1.8 2.2Z" fill="#2f3a2c"/>
-  <path d="M28.4 19.6c.8-.6 1.4-1.2 1.8-1.8" fill="none" stroke="#2f3a2c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray=".2 1.4"/>
-  <ellipse cx="31.8" cy="14.6" rx="1.2" ry=".9" fill="#fbf8f1" stroke="#2f3a2c" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
-  <ellipse cx="32.6" cy="16.6" rx="2.2" ry="1.6" fill="#f2c94c" stroke="#2f3a2c" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round"/>
-  <path d="M32.4 15.1v3" fill="none" stroke="#2f3a2c" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17.2 34.8v3M30.8 34.8v3" fill="none" stroke="#7a5230" stroke-width="2.2" stroke-linecap="round"/>
+  <g stroke="#2f3a2c" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M15 33.4h18v1.8H15Z" fill="#a9744a" stroke-width="1.3"/>
+    <path d="M16.4 33.4v-7.6h15.2v7.6Z" fill="#fbf8f1" stroke-width="1.5"/>
+    <path d="M16.4 25.8v-5.2h15.2v5.2Z" fill="#f2c94c" stroke-width="1.5"/>
+    <path d="M21.6 23.2h4.8M21.6 28.2h4.8" fill="none" stroke="#7a5230" stroke-width="1.5"/>
+    <path d="M20.2 31.6h7.6" fill="none" stroke-width="1.8"/>
+    <path d="M19 33.4h10l1.6 1.8H17.4Z" fill="#c8945e" stroke-width="1.2"/>
+    <path d="M17.6 20.6L24 15l6.4 5.6Z" fill="#efe5cf" stroke-width="1.2"/>
+    <path d="M13.8 21.4L24 12l10.2 9.4" fill="none" stroke-width="4.4"/><path d="M13.8 21.4L24 12l10.2 9.4" fill="none" stroke="#d4564a" stroke-width="2.4"/>
+    <circle cx="24" cy="18.2" r=".9" fill="#2f3a2c" stroke="none"/>
+    <ellipse cx="34.6" cy="29.4" rx="1.8" ry="1.3" fill="#f2c94c" stroke-width="1"/>
+    <path d="M34.6 28.1v2.6" fill="none" stroke-width=".9"/>
+  </g>
 </svg>

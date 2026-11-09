@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 32 32" width="48" height="48">
+  <g stroke="#2f3a2c" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M14.400 20v-8.800h4.200V20Z" fill="#cfc8bb" stroke-width="1.300"/>
+    <path d="M12 37.600V23.400L22 14.800l10 8.600v14.200Z" fill="#a9744a" stroke-width="1.500"/>
+    <path d="M12 28.600h20M12 33h20" fill="none" stroke="#7a5230" stroke-width="1.200"/>
+    <circle cx="22" cy="21.800" r="1.500" fill="#2f3a2c" stroke="none"/>
+    <path d="M24.600 37.600v-9.200h5v9.200Z" fill="#7b5236" stroke-width="1.300"/>
+    <path d="M14.800 33.400v-5h5.600v5Z" fill="#7cc3e8" stroke="#fbf8f1" stroke-width="1.500"/>
+    <path d="M9.800 25L22 14.200 34.200 25" fill="none" stroke-width="4.400"/><path d="M9.800 25L22 14.200 34.200 25" fill="none" stroke="#7b5236" stroke-width="2.400"/>
+    <path d="M37 38V12.600" fill="none" stroke-width="3"/><path d="M37 38V12.600" fill="none" stroke="#c8945e" stroke-width="1.400"/>
+    <path d="M33.800 12.400h6.200" fill="none" stroke-width="3"/><path d="M33.800 12.400h6.200" fill="none" stroke="#b8b2a6" stroke-width="1.400"/>
+    <path d="M34.600 13.400v2.400M37 13.400v2.400M39.400 13.400v2.400" fill="none" stroke-width="1.200"/>
+  </g>
+</svg>
