@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 32 32" width="48" height="48">
+  <g stroke="#2f3a2c" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M18.8 38c-.6-1.6.2-2.6 2-2.6h1.6v2.6ZM29.2 38c.6-1.6-.2-2.6-2-2.6h-1.6v2.6Z" fill="#7a5230" stroke-width="1.2"/>
+    <path d="M19 35.6l1.6-11h6.8l1.6 11Z" fill="#bccbd8" stroke-width="1.5"/>
+    <path d="M26.2 26v8.4h2.6V26Z" fill="#d4564a" stroke-width="1.2"/>
+    <circle cx="24" cy="21.4" r="4.6" fill="#efc9bd" stroke-width="1.4"/>
+    <path d="M19.8 22.6c.6 5.4 2.2 8.8 4.2 10.4 2-1.6 3.6-5 4.2-10.4-2.4 1.6-6 1.6-8.4 0Z" fill="#fbf8f1" stroke-width="1.3"/>
+    <circle cx="24" cy="22.8" r="1.7" fill="#e98aa0" stroke-width="1.1"/>
+    <circle cx="22" cy="20.6" r=".55" fill="#2f3a2c" stroke="none"/><circle cx="26" cy="20.6" r=".55" fill="#2f3a2c" stroke="none"/>
+    <path d="M18.8 19.4L24 8.8l5.2 10.6c-3 1.4-7.4 1.4-10.4 0Z" fill="#4f6f9a" stroke-width="1.5"/>
+
+    <path d="M19.8 26.6c2.6 1.4 5.8 1.4 8.4 0" fill="none" stroke-width="3.6"/><path d="M19.8 26.6c2.6 1.4 5.8 1.4 8.4 0" fill="none" stroke="#d4564a" stroke-width="1.8"/>
+    <path d="M18.6 19.2c3.2 1.6 7.6 1.6 10.8 0" fill="none" stroke-width="3.6"/><path d="M18.6 19.2c3.2 1.6 7.6 1.6 10.8 0" fill="none" stroke="#fbf8f1" stroke-width="1.8"/>
+    <circle cx="24" cy="9.4" r="1.9" fill="#fbf8f1" stroke-width="1.2"/>
+  </g>
+</svg>

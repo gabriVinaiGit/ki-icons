@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 32 32" width="48" height="48">
+  <g stroke="#2f3a2c" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M24 38V26" fill="none" stroke-width="4"/><path d="M24 38V26" fill="none" stroke="#4e9b4e" stroke-width="2"/>
+    <path d="M24 21c-2.600-2.400-3.200-7.15-0-13 3.200 5.8500000000000005 2.600 9.88 0 13Z" fill="#5aa45a" stroke-width="1.200" transform="rotate(30 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-7.15-0-13 3.200 5.8500000000000005 2.600 9.88 0 13Z" fill="#5aa45a" stroke-width="1.200" transform="rotate(90 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-7.15-0-13 3.200 5.8500000000000005 2.600 9.88 0 13Z" fill="#5aa45a" stroke-width="1.200" transform="rotate(150 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-7.15-0-13 3.200 5.8500000000000005 2.600 9.88 0 13Z" fill="#5aa45a" stroke-width="1.200" transform="rotate(210 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-7.15-0-13 3.200 5.8500000000000005 2.600 9.88 0 13Z" fill="#5aa45a" stroke-width="1.200" transform="rotate(270 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-7.15-0-13 3.200 5.8500000000000005 2.600 9.88 0 13Z" fill="#5aa45a" stroke-width="1.200" transform="rotate(330 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-6.325-0-11.5 3.200 5.175 2.600 8.74 0 11.5Z" fill="#d4564a" stroke-width="1.200" transform="rotate(0 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-6.325-0-11.5 3.200 5.175 2.600 8.74 0 11.5Z" fill="#d4564a" stroke-width="1.200" transform="rotate(60 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-6.325-0-11.5 3.200 5.175 2.600 8.74 0 11.5Z" fill="#d4564a" stroke-width="1.200" transform="rotate(120 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-6.325-0-11.5 3.200 5.175 2.600 8.74 0 11.5Z" fill="#d4564a" stroke-width="1.200" transform="rotate(180 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-6.325-0-11.5 3.200 5.175 2.600 8.74 0 11.5Z" fill="#d4564a" stroke-width="1.200" transform="rotate(240 24 21)"/>
+    <path d="M24 21c-2.600-2.400-3.200-6.325-0-11.5 3.200 5.175 2.600 8.74 0 11.5Z" fill="#d4564a" stroke-width="1.200" transform="rotate(300 24 21)"/>
+    <circle cx="24" cy="21" r="1.100" fill="#f2c94c" stroke-width=".9"/><circle cx="22" cy="20" r="1.100" fill="#f2c94c" stroke-width=".9"/><circle cx="26" cy="20" r="1.100" fill="#f2c94c" stroke-width=".9"/><circle cx="24" cy="23" r="1.100" fill="#f2c94c" stroke-width=".9"/>
+  </g>
+</svg>
