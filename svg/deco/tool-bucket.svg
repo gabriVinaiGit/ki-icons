@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 32 32" width="48" height="48">
+  <g stroke="#2f3a2c" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="24" cy="22.600" rx="10" ry="2" fill="#7a5230" stroke-width="1.300"/>
+    <path d="M20.200 23.400l-2.600-6.200" fill="none" stroke-width="4"/><path d="M20.200 23.400l-2.600-6.200" fill="none" stroke="#d4564a" stroke-width="2"/>
+    <path d="M17.800 17.600c-3.400-.4-5.600-3.800-5.400-7.400 3.200 1 5.600 3.800 5.400 7.400Z" fill="#cfc8bb" stroke-width="1.300"/>
+    <path d="M27.200 23.400l2.400-6.600" fill="none" stroke-width="4"/><path d="M27.200 23.400l2.400-6.600" fill="none" stroke="#c8945e" stroke-width="2"/>
+    <path d="M27.400 16.200l5.200 1.800M28.200 16.400l1.400-5M30.400 17.200l1.400-5M32.600 18l1.400-5" fill="none" stroke-width="3"/>
+    <path d="M27.400 16.200l5.200 1.800M28.200 16.400l1.400-5M30.400 17.200l1.400-5M32.600 18l1.400-5" fill="none" stroke="#cfc8bb" stroke-width="1.300"/>
+    <path d="M14 22.600c0 1.100 4.500 2 10 2s10-.9 10-2l-2 15.400H16Z" fill="#9aa6ac" stroke-width="1.500"/>
+    <path d="M14.800 28.200h18.400M15.700 34.400h16.600" fill="none" stroke="#bccbd8" stroke-width="1.300"/>
+    <path d="M20.600 23.400c1.600-.6 3.600-.6 5 .2l.6 4.800c.1 1-.6 1.600-1.400 1.600h-3c-.8 0-1.400-.6-1.400-1.400Z" fill="#f2c94c" stroke-width="1.300"/>
+    <path d="M22.400 27.600v2M24.200 27.600v2" fill="none" stroke-width="1"/>
+  </g>
+</svg>
