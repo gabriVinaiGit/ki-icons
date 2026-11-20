@@ -1,0 +1,57 @@
+name: Icon request
+description: Ask for a new icon to be drawn.
+title: "Icon request: "
+labels: ["icon request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the set grow. Before opening a request, search the
+        [catalog](https://gabrivinaigit.github.io/ki-icons/catalog.html) and the
+        [open requests](https://github.com/gabriVinaiGit/ki-icons/issues?q=is%3Aissue+label%3A%22icon+request%22)
+        — if someone already asked, add a 👍 there instead.
+  - type: input
+    id: subject
+    attributes:
+      label: What should the icon show?
+      description: One thing per request, in English.
+      placeholder: e.g. lasagna, a gold medal trophy, a mountain world
+    validations:
+      required: true
+  - type: dropdown
+    id: family
+    attributes:
+      label: Family
+      options:
+        - food
+        - category
+        - trophy
+        - currency
+        - world
+        - deco
+        - tree
+        - not sure / a new family
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Suggested name
+      description: kebab-case, with the family prefix for everything but food.
+      placeholder: e.g. lasagna, trophy-medal, world-mountain
+  - type: textarea
+    id: context
+    attributes:
+      label: Where will you use it?
+      description: The screen, list or feature it is for helps decide what it should look like.
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Photos, sketches or icons from this set it should sit next to. Drag images here.
+  - type: checkboxes
+    id: draw
+    attributes:
+      label: Contributing
+      options:
+        - label: I would like to draw it myself (see CONTRIBUTING.md)

@@ -45,9 +45,9 @@
     }
   },
   "scripts": {
-    "build": "node scripts/build.mjs && node scripts/catalog.mjs",
+    "build": "node scripts/build.mjs && node scripts/catalog.mjs && node scripts/preview.mjs",
     "test": "node scripts/build.mjs --check",
-    "version": "npm run build && git add icons.json names.json catalog.html",
+    "version": "npm run build && git add icons.json names.json catalog.html .github/preview.svg",
     "prepublishOnly": "npm test"
   }
 }

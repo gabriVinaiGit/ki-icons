@@ -1,4 +1,35 @@
-# ki-icons
+<p align="center">
+  <a href="https://gabrivinaigit.github.io/ki-icons/catalog.html">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./.github/logo-lockup-dark.svg">
+      <img src="./.github/logo-lockup.svg" alt="ki-icons" width="360">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  Hand-drawn, full-colour icons. An Iconify set for Nuxt, Vue, React and more.
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/ki-icons"><img src="https://img.shields.io/npm/v/ki-icons?color=2f3a2c&label=npm" alt="npm version"></a>
+  <a href="https://github.com/gabriVinaiGit/ki-icons/actions/workflows/test.yml"><img src="https://github.com/gabriVinaiGit/ki-icons/actions/workflows/test.yml/badge.svg" alt="test"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/npm/l/ki-icons?color=2f3a2c" alt="MIT license"></a>
+</p>
+
+<p align="center">
+  <a href="https://gabrivinaigit.github.io/ki-icons/catalog.html">Icons</a>
+  ·
+  <a href="#install">Install</a>
+  ·
+  <a href="#use-with-nuxt">Docs</a>
+  ·
+  <a href="./CONTRIBUTING.md">Contributing</a>
+  ·
+  <a href="https://github.com/gabriVinaiGit/ki-icons/issues/new?template=icon-request.yml">Request an icon</a>
+</p>
+
+## About
 
 Hand-drawn, full-colour illustrations — food, food categories, trophies, currency
 and the worlds with what goes in them —
@@ -6,7 +37,12 @@ packaged as an [Iconify](https://iconify.design) icon set with the prefix `ki`.
 It works like `@iconify-json/mdi`: install it, add it to your Nuxt modules, and write
 `ki:banana` wherever you would write `mdi:home`.
 
-Open [`catalog.html`](./catalog.html) in a browser to browse every icon.
+<a href="https://gabrivinaigit.github.io/ki-icons/catalog.html">
+  <img src="./.github/preview.svg" alt="A selection of ki-icons: apple, avocado, croissant, broccoli, cheese, strawberry, pizza, coffee, carrot, sushi, a fruit basket, a sprout trophy, a tree trophy, a seed sack, a garden world, a farm world, a beehive, a watering can, a garden gnome and an oak tree" width="100%">
+</a>
+
+**[Browse all icons →](https://gabrivinaigit.github.io/ki-icons/catalog.html)**
+Search, preview at any size, copy a ready-made snippet or download the SVG / PNG.
 
 | Family   | Names                                          | Example              |
 | -------- | ---------------------------------------------- | -------------------- |
@@ -23,9 +59,15 @@ The full list, grouped by family, is in `names.json`.
 ## Install
 
 ```sh
+npm install ki-icons
+# or
 pnpm add ki-icons
-# or: npm install ki-icons
+yarn add ki-icons
+bun add ki-icons
 ```
+
+It is a plain npm package, so any package manager works. The examples below
+use npm; swap in your own.
 
 ## Use with Nuxt
 
@@ -59,12 +101,93 @@ gets:
 <v-icon icon="ki:trophy-tree" :size="64" />
 ```
 
+## Use with Vue
+
+Register the set once with [`@iconify/vue`](https://iconify.design/docs/icon-components/vue/),
+then use it like any other Iconify icon. Everything is bundled: no API calls.
+
+```sh
+npm install ki-icons @iconify/vue
+```
+
+```ts
+// main.ts
+import { addCollection } from '@iconify/vue'
+import kiIcons from 'ki-icons/icons.json'
+
+addCollection(kiIcons)
+```
+
+```vue
+<script setup lang="ts">
+import { Icon } from '@iconify/vue'
+</script>
+
+<template>
+  <Icon icon="ki:banana" width="48" />
+</template>
+```
+
+## Use with React
+
+The same with [`@iconify/react`](https://iconify.design/docs/icon-components/react/):
+
+```sh
+npm install ki-icons @iconify/react
+```
+
+```tsx
+import { Icon, addCollection } from '@iconify/react'
+import kiIcons from 'ki-icons/icons.json'
+
+addCollection(kiIcons)
+
+export function Fruit() {
+  return <Icon icon="ki:banana" width={48} />
+}
+```
+
+## Use with React Native
+
+Turn an icon into SVG markup with [`@iconify/utils`](https://iconify.design/docs/libraries/utils/)
+and draw it with [`react-native-svg`](https://github.com/software-mansion/react-native-svg):
+
+```sh
+npm install ki-icons @iconify/utils react-native-svg
+```
+
+```tsx
+import { SvgXml } from 'react-native-svg'
+import { getIconData, iconToHTML, iconToSVG } from '@iconify/utils'
+import kiIcons from 'ki-icons/icons.json'
+
+export function KiIcon({ name, size = 48 }: { name: string, size?: number }) {
+  const data = getIconData(kiIcons, name)
+  if (!data) return null
+  const { attributes, body } = iconToSVG(data, { width: size, height: size })
+  return <SvgXml xml={iconToHTML(body, attributes)} />
+}
+
+// <KiIcon name="banana" />
+```
+
+## Use with Flutter, or as plain files
+
+Every icon is a self-contained SVG with no external references. Download the
+ones you need from the [catalog](https://gabrivinaigit.github.io/ki-icons/catalog.html)
+(SVG or 512 px PNG) or take them from [`svg/`](./svg), then use them as assets —
+in Flutter with [`flutter_svg`](https://pub.dev/packages/flutter_svg):
+
+```dart
+SvgPicture.asset('assets/icons/banana.svg', width: 48)
+```
+
 ## Use anywhere else
 
 `icons.json` is a standard `IconifyJSON` document, so any Iconify tool reads
-it: `@iconify/vue`'s `addCollection(kiIcons)`, `@iconify/utils`, UnoCSS
-`presetIcons({ collections: { ki: () => kiIcons } })`. The source SVGs are
-also shipped in `svg/` for direct use.
+it: `@iconify/utils`, UnoCSS
+`presetIcons({ collections: { ki: () => kiIcons } })`, Tailwind's Iconify
+plugins. The source SVGs are also shipped in `svg/` for direct use.
 
 ## Colours
 
@@ -73,14 +196,18 @@ so it does **not** follow `color` / `currentColor`. Iconify renders such
 icons as images rather than masks, which keeps the colours intact. Size is
 the only thing the surrounding text controls.
 
-## Adding an icon
+## Contributing
+
+Missing a food, a trophy or a place? [Request an icon](https://github.com/gabriVinaiGit/ki-icons/issues/new?template=icon-request.yml)
+— or draw it yourself: [CONTRIBUTING.md](./CONTRIBUTING.md) covers the style,
+the file layout and the checks. In short:
 
 1. Draw it on a square `viewBox` (24 × 24 for food, any square for the rest),
    with its own fills and no `currentColor`.
 2. Save it as `svg/<family>/<kebab-name>.svg`.
-3. Run `npm run build` — it regenerates `icons.json`, `names.json` and
-   `catalog.html`, and fails on a malformed or unsafe file (scripts, external
-   references, event handlers).
+3. Run `npm run build` — it regenerates `icons.json`, `names.json`,
+   `catalog.html` and the README preview, and fails on a malformed or unsafe
+   file (scripts, external references, event handlers).
 4. Commit the SVG together with the regenerated files: they are what
    installs read, with no build step on the consumer's side.
 
